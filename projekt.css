@@ -1,0 +1,81 @@
+html {
+  background-color: #181D27;
+  min-width: 550px;
+}
+
+
+nav {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 1000;
+  background-color: #796b94;
+}
+
+nav ul {
+    list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+}
+
+nav a {
+  color: #181D27;
+  text-decoration: none;
+  font-size: 30px;
+  display: inline-block;
+  padding: 6px 10px;
+  border-radius: 6px;
+  transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+nav a:hover,
+nav a:focus {  background-color: #F8F0FB;
+  color: #181D27;
+}
+
+h1 {
+  text-align: center;
+  color: #F8F0FB;
+  margin-top: 120px;
+}
+
+#biuro {
+  flex: content;
+  flex-direction: row;
+  background-color: #F8F0FB;
+    opacity: 0.9;
+  padding: 20px;
+    margin: 20px auto;
+    margin-left: 10px;
+}
+
+#mapa {
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+
+#adresy {
+  flex: 1;           
+  position: absolute;
+  right : 40%;
+  margin-left: 20px;
+  top: 60%;
+  max-width: 650px;
+  border: 2px solid #F8F0FB;
+  padding: 12px;
+  border-radius: 8px;
+  color: #F8F0FB;
+  margin-block: 20px;
+}
+
+.stopka {
+  color: #181D27;
+  background-color: #796b94;
+  bottom: 0;
+  text-align: center;
+  width: 100%;
+  padding: 10px 0;
+  vertical-align: sub;
+  margin: 0%;
+}
